@@ -1,0 +1,31 @@
+{
+  "name": "2p",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "migrations": "sequelize db:migrate --config server/config/database/sequelize-config.json --models-path server/models --migrations-path server/migrations"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "\"\"",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.17.2",
+    "consign": "^0.1.4",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.4",
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.37.6",
+    "sequelize-cli": "^4.0.0"
+  }
+}
